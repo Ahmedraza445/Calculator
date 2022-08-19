@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=S, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>My Calculator</h1>
+    
+    <script>
+    let a=Number(prompt("Enter number 1: "));
+    let b=Number(prompt("Enter number 2: "));
+    let cal=prompt("Choose your calculation mode: ")
+
+    if (cal == "+") {
+        f1= a+b
+        document.write(f1)
+        a1 = prompt("check even or odd: ")
+        if (a1 == "yes") {
+            if (c % 2 == 0) {
+                document.write(" It is an even number")
+            } else {
+                document.write(" It is an odd number")
+            }
+        }
+    } 
+
+    else if (cal == "-") {
+        f2= a-b
+        document.write(f2)
+        a1 = prompt("check even or odd: ")
+        if (a1 == "yes") {
+            if (f2 % 2 == 0) {
+                document.write(" It is an even number")
+            } else {
+                document.write(" It is an odd number")
+            }
+        }
+    }
+
+    else if (cal == "*" || cal == "x") {
+        f3= a*b
+        document.write(f3)
+        a1 = prompt("check even or odd: ")
+        if (a1 == "yes") {
+            if (f3 % 2 == 0) {
+                document.write(" It is an even number")
+            } else {
+                document.write(" It is an odd number")
+            }
+        }
+    }
+
+    else if (cal == "/") {
+        f4= a/b
+        document.write(f4)
+        a1 = prompt("check even or odd: ")
+        if (a1 == "yes") {
+            if (f4 % 2 == 0) {
+                document.write(" It is an even number")
+            } else {
+                document.write(" It is an odd number")
+            }
+        }
+    } else {
+        document.write("Choose the correct calculation mood")
+    }
+
+
+    
+
+    //     function Addition() {  
+    //         document.write(a+b);
+    //     }
+
+    //     function Subtraction() {  
+    //         document.write(a-b);
+    //     }
+
+    //     function Multiplication() {  
+    //         document.write(a*b);
+    //     }
+
+    //     function Division() {  
+    //         document.write(a/b);
+    //     }
+
+    // </script>
+     <!-- <button onclick="Addition">+</button>
+    <button onclick="Subtraction">-</button>
+    <button onclick="Multiplication">x</button>
+    <button onclick="Division">/</button> -->
+</body>
+</html>
